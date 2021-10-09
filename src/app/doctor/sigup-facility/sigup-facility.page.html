@@ -1,0 +1,306 @@
+
+<ion-content>
+
+  <ion-grid fixed>
+    <ion-row class="ion-justify-content-center">
+
+      <ion-col size="12" size-md="6" size-lg="6">
+        <br>
+        <ion-grid classs="ionCart">
+
+
+          <ion-grid text-align="center">
+
+            <ion-text color="danger">
+              <h1 >SignUp</h1>
+            </ion-text>
+
+            <ion-text color="dark">
+              <p class="subtitle"> Facillity service Information </p>
+            </ion-text><br>
+
+          </ion-grid>
+
+          <ion-grid class="ion-text-center">
+            <ion-grid>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Doctor's specialty</ion-label>
+                <ion-input type="text"></ion-input>
+              </ion-item>
+              <br><br>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Educational Background discription</ion-label>
+                <ion-textarea rows="6" cols="20"  type="text"></ion-textarea>
+              </ion-item>
+              <br><br>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Add my facility services</ion-label>
+                <ion-input placeholder="e.g X-ray" type="text"></ion-input>
+
+              </ion-item>
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating"></ion-label>
+                <ion-input placeholder="e.g X-ray" type="text"></ion-input>
+
+              </ion-item>
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating"></ion-label>
+                <ion-input placeholder="e.g X-ray" type="text"></ion-input>
+
+              </ion-item><br><br><br>
+
+
+
+              <ion-grid class="Opstimes">
+                <ion-row>
+
+
+                  <ion-text  color="dark" >
+                    <p> Set Operating times </p>
+                  </ion-text><br>
+
+                </ion-row>
+
+                <ion-row>
+
+                  <ion-col>
+
+
+                    <ion-item class="inputstime">
+
+                      <ion-input placeholder="Opening" type="text"></ion-input>
+
+
+                    </ion-item>
+
+                  </ion-col>
+                  <ion-col>
+                    <ion-text color="dark" class="inputstime">
+                      <p> Mon </p>
+                    </ion-text><br>
+
+                  </ion-col>
+                  <ion-col>
+
+
+
+                    <ion-item class="inputstime">
+
+
+                      <ion-input placeholder="Closing" type="text"></ion-input>
+
+
+                    </ion-item>
+                  </ion-col>
+
+                </ion-row>
+
+
+
+
+                <ion-row>
+
+                  <ion-col>
+
+
+                    <ion-item class="inputstime">
+
+                      <ion-input placeholder="Opening" type="text"></ion-input>
+
+
+                    </ion-item>
+
+                  </ion-col>
+                  <ion-col>
+                    <ion-text color="dark" class="inputstime">
+                      <p> Tue </p>
+                    </ion-text><br>
+
+                  </ion-col>
+                  <ion-col>
+
+
+
+                    <ion-item class="inputstime">
+
+
+                      <ion-input placeholder="Closing" type="text"></ion-input>
+
+
+                    </ion-item>
+                  </ion-col>
+
+                </ion-row>
+
+
+
+
+
+                <ion-row>
+
+                  <ion-col>
+
+
+                    <ion-item class="inputstime">
+
+                      <ion-input placeholder="Opening" type="text"></ion-input>
+
+
+                    </ion-item>
+
+                  </ion-col>
+                  <ion-col>
+                    <ion-text color="dark" class="inputstime">
+                      <p> Wed </p>
+                    </ion-text><br>
+
+                  </ion-col>
+                  <ion-col>
+
+
+
+                    <ion-item class="inputstime">
+
+
+                      <ion-input placeholder="Closing" type="text"></ion-input>
+
+
+                    </ion-item>
+                  </ion-col>
+
+                </ion-row>
+
+
+
+                <ion-row>
+
+                  <ion-col>
+
+
+                    <ion-item class="inputstime">
+
+                      <ion-input placeholder="Opening" type="text"></ion-input>
+
+
+                    </ion-item>
+
+                  </ion-col>
+                  <ion-col>
+                    <ion-text color="dark" class="inputstime">
+                      <p> Thu </p>
+                    </ion-text><br>
+
+                  </ion-col>
+                  <ion-col>
+
+
+
+                    <ion-item class="inputstime">
+
+
+                      <ion-input placeholder="Closing" type="text"></ion-input>
+
+
+                    </ion-item>
+                  </ion-col>
+
+                </ion-row>
+
+
+
+
+
+                <ion-row>
+
+                  <ion-col>
+
+
+                    <ion-item class="inputstime">
+
+                      <ion-input placeholder="Opening" type="text"></ion-input>
+
+
+                    </ion-item>
+
+                  </ion-col>
+                  <ion-col>
+                    <ion-text color="dark" class="inputstime">
+                      <p> Fri </p>
+                    </ion-text><br>
+
+                  </ion-col>
+                  <ion-col>
+
+
+
+                    <ion-item class="inputstime">
+
+
+                      <ion-input placeholder="Closing" type="text"></ion-input>
+
+
+                    </ion-item>
+                  </ion-col>
+
+                </ion-row>
+
+
+
+
+
+
+
+
+              </ion-grid>
+
+
+              <br>
+            </ion-grid>
+
+            <br>
+            <br>
+            <ion-button (click)="signinF()"  fill="outline" shape="round"
+              position="floating" expand="block" color="danger">Next</ion-button>
+
+            <!--            <ion-button  routerLink="../signup" fill="outline" shape="round" position="floating" expand="block" color="dark"> Patient</ion-button>
+          --><br>
+
+            <ion-text color="dark">
+              <p>Already have an account? <a  href="/doctor/sig-in"> SignIn</a>
+
+              </p>
+            </ion-text>
+
+          </ion-grid>
+
+        </ion-grid>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ion-content>

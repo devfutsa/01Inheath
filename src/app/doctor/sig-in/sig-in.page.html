@@ -1,0 +1,70 @@
+
+<ion-content>
+
+  <ion-grid fixed>
+    <ion-row class="ion-justify-content-center">
+
+      <ion-col size="12" size-md="6" size-lg="6">
+        <br><br><br><br><br><br>
+        <ion-grid classs="ionCart">
+
+          <ion-grid text-align="center">
+
+            <ion-text color="danger">
+              <h1 >SignIn</h1>
+            </ion-text>
+
+            <ion-text color="dark">
+              <p class="subtitle">Signin here Doctor</p>
+            </ion-text><br>
+
+          </ion-grid>
+
+          <ion-grid class="ion-text-center">
+            <ion-grid>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Email</ion-label>
+                <ion-input type="email"></ion-input>
+              </ion-item>
+              <br>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Practice Number</ion-label>
+                <ion-input type="email"></ion-input>
+              </ion-item>
+              <br>
+
+              <ion-item class="inputform">
+                <ion-label color="dark" position="floating">Password</ion-label>
+                <ion-input type="password"></ion-input>
+              </ion-item>
+              <br>
+
+
+            </ion-grid>
+
+            <br>
+            <br>
+            <ion-button (click)="signinD()"  fill="outline" shape="round"
+              position="floating" expand="block" color="danger">SignIn</ion-button>
+
+            <!--            <ion-button  routerLink="../signup" fill="outline" shape="round" position="floating" expand="block" color="dark"> Patient</ion-button>
+      -->
+            <ion-text color="dark"><br>
+              <p>I don't have an account? <a  href="../doctor/sigup-general/"> SignUp</a>
+
+              </p>
+            </ion-text>
+
+          </ion-grid>
+
+        </ion-grid>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>
